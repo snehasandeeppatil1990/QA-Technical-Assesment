@@ -14,6 +14,7 @@ public class StatusCodeTest {
 	@BeforeClass
     public void setup() {
         RestAssured.baseURI = "https://reqres.in";  
+        
     }
 
     // GET REQUEST 
